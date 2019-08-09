@@ -1,0 +1,118 @@
+	* {
+		margin: 0;
+		padding: 0;
+	}
+	body {
+		font-family: Verdana, Sans-serif, serif;
+	}
+	main {
+		width: 100%;
+		height: 100vh;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		background: linear-gradient(173deg, orange, orange);
+	}
+	.lang {
+		position: absolute;
+		right: 30px;
+		top: 10px;
+		font-size: 24px;
+		font-weight: bold;
+		color: white;
+		cursor: pointer;
+		text-shadow: 0 0 1px black;
+	}
+	.wrap_form {
+		width: 37%;
+		height: auto;
+	}
+	.autorization, .registration {
+		width: 100%;
+		text-align: center;
+		margin-top: 5px;
+	}
+	.autorization a, .registration a {
+		color: white;
+		text-decoration: none;
+	}
+	.autorization a:hover, .registration a:hover {
+		text-decoration: underline;
+	}
+	form {
+		width: 100%;
+		height: 560px;
+		background: white;
+		text-align: left;
+		box-shadow: inset 0 0 3px 1px #656464;
+	}
+	#login_form {
+		height: 200px;
+	}
+	form input {
+		width: 90%;
+		padding: 15px 12px 15px 12px;
+		margin: 6px 0 2px 13px;
+		background: #f3f3f3;
+		border: none;
+	}
+	form input:first-child {
+		margin-top: 10px;
+	}
+	form input[type="submit"] {
+		width: 95%;
+		background: orange;
+		color: white;
+		border: none;
+		padding: 13px;
+		cursor: pointer;
+		border-radius: 25px;
+		box-shadow: none;
+		margin-top: 13px;
+	}
+	form input:focus {
+		outline-style: none;
+		outline-width: 0px !important;
+		outline-color: none !important;
+	}
+	.error {
+		font-size: 11px;
+		color: #cc2a2a;
+		margin-left: 13px;
+	}
+	.exist_user {
+		color: #e71e1e;
+		text-align: center;
+		padding-bottom: 4px;
+	}
+	.outer {
+		height: 70px;
+	}
+	.wrap_date {
+		height: 77px;
+	}
+	.not-valid {
+		border: 1px solid #cc2a2a;
+	}
+	/*Profile*/
+	.wrap_picture {
+		width: 325px;
+		height: 370px;
+		background: white;
+	}
+	.main_info {
+		width: 500px;
+		height: 370px;
+		background: white;
+	}
+	.image img {
+		height: 350px;
+		width: 300px;
+		padding: 10px;
+	}
+	.main_info p {
+		width: 91%;
+		padding: 15px 12px 15px 12px;
+		margin: 9px 0 2px 0;
+		background: #f3f3f3;
+	}
